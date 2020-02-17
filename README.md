@@ -19,4 +19,4 @@ AFTER INSTALLING THESE PACKAGES AND STARTING YOUR MONGODB DATABASE FEEL FREE TO 
 python IDT.py
 
 a small interface window should popup looking like that:
-![Interface](screenshots/picturename)
+![Interface](screenshots/INTERFACE.PNG)
