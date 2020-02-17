@@ -27,6 +27,7 @@ access_token = 'e2a9f66eee466e' #THIS IS MY OWN ACCESS CODE, YOU MAY USE IT, OR 
 handler = ipinfo.getHandler(access_token)
 
 #SNS amazon client
+### PLEASE USE YOUR OWN accesskey and secret access key, MINE DOESN'T WORK SOMETIMES IDK WHY
 client = boto3.client("sns", aws_access_key_id = "AKIAIQ5OH6ZAJTWZRGWQ",
                     aws_secret_access_key = "oggvccasjB00uaczBMwVZAktbbT5v4UwTjXJ+IGr",
                         region_name = "us-east-1")
