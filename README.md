@@ -39,4 +39,4 @@ after you copy paste into the entry box, you can click the two options underneat
 3. **click for a history of all locations returns all queries in DB**
 4. **query specific country returns a history of the queries found in specific country**
 
-5. **the dates are kept in UTC as per mongodb requirements, so searching based off EST time might not return results, because records are kept in UTC, which might be tomorrow, so try 17 FEB 2020, if you added some records on 16 FEB 2020, and don't see any.
+5. **the dates are kept in UTC as per mongodb requirements, so searching based off EST time might not return results, because records are kept in UTC, which might be tomorrow, so try 17 FEB 2020, if you added some records on 16 FEB 2020, and don't see any.**
