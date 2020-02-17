@@ -2,7 +2,7 @@
 coding challenge
 
 
-TO RUN CODE 
+# **TO RUN CODE**
 1. pip install ipinfo
 2. pip install pymongo
 3. pip install folium
