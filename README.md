@@ -28,8 +28,10 @@ I got my list of IP address test results from this: https://www.nirsoft.net/coun
 after you copy paste into the entry box, you can click the two options underneathe the entry box
 ![two options](screenshots/twoop.png)
 
-1. Leaving the entry box blank and clicking "get location via webpage" will retrieve your current IP address and open up
-a webpage showing you where its geolocation is
-2. entering in an ip address from somewhere else will open up a webpage of the ip address' location
-3. click to get location via sms will open up a pop up asking for your country code and to type in your phone number
-4. clicking the button should send a message of the IP addresses location to your phone, ###BUT please use your own AMAZON SNS, mine is a little wonky, it was working prior to making this README.md
+  1. Leaving the entry box blank and clicking "get location via webpage" will retrieve your current IP address and open up  
+  a webpage showing you where its geolocation is
+  2. entering in an ip address from somewhere else will open up a webpage of the ip address' location
+  3. click to get location via sms will open up a pop up asking for your country code and to type in your phone number
+  4. clicking the button should send a message of the IP addresses location to your phone, **BUT please use your own AMAZON     SNS, mine is a little wonky, it was working prior to making this README.md**
+
+
