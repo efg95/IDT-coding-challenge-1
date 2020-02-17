@@ -33,6 +33,10 @@ after you copy paste into the entry box, you can click the two options underneat
   * entering in an ip address from somewhere else will open up a webpage of the ip address' location
   * click to get location via sms will open up a pop up asking for your country code and to type in your phone number
   * clicking the button should send a message of the IP addresses location to your phone, **BUT please use your own AMAZON          SNS, mine is a little wonky, it was working prior to making this README.md**
+  (**I CREATED A NEW AMAZON SNS ACCOUNT AND IT WORKS SO IDK WHATS GOING ON**)
+  (**REPLACED OLD ACCESS KEYS WITH NEW ONE)
+  (**YOU SHOULD RECEIVE A MSG LIKE THIS**)
+  ![two options](screenshots/sms.png)
 
 
 2. **get last n locations basically retrieves the last n locations in DB**
