@@ -22,7 +22,7 @@ a small interface window should popup looking like that:
 ![Interface](screenshots/INTERFACE.PNG)
 
 
-1. ##The first entry box is for you to key in a IP address
+1. **The first entry box is for you to key in a IP address**
 I got my list of IP address test results from this: https://www.nirsoft.net/countryip/index.html
 
 after you copy paste into the entry box, you can click the two options underneathe the entry box
@@ -35,3 +35,6 @@ after you copy paste into the entry box, you can click the two options underneat
   4. clicking the button should send a message of the IP addresses location to your phone, **BUT please use your own AMAZON     SNS, mine is a little wonky, it was working prior to making this README.md**
 
 
+2. **get last n locations basically retrieves the last n locations in DB**
+3. **click for a history of all locations returns all queries in DB**
+4. **query specific country returns a history of the queries found in specific country**
