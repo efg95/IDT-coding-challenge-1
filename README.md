@@ -14,6 +14,7 @@ coding challenge
 7. brew install mongodb-community@4.2
 8. brew services start mongodb-community@4.2
 9. get your own ipinfo access key here: https://ipinfo.io/
+10. input your own AMAZON SNS ACCESS KEYS and IPINFO ACCESS KEY at the beginning of the IDT.py code
 
 
 # **AFTER INSTALLING THESE PACKAGES AND STARTING YOUR MONGODB DATABASE FEEL FREE TO RUN THE CODE BY TYPING IN TERMINAL**
