@@ -12,6 +12,8 @@ import boto3
 import phonenumbers as pn
 import pycountry
 
+#TO RUN THIS CODE PLS DO 1. pip install folium 2.pip install ipinfo 3.
+
 
 
 #### CREATES DATABASE in local computer
@@ -206,7 +208,7 @@ def dateRangeNewWindow(history, dateFROM, dateTO):
     button = Button(newInfo, text="Dismiss", command=newInfo.destroy)
     button.pack()
 
-#BELOW 3 METHODS handle desire to retrieve location via SMS
+#NEXT 3 METHODS handle desire to retrieve location via SMS
 def sendNumber(phoneEntry, i_code):
     i = i_code.get()
     i_temp = i.split(" ", 1)
@@ -248,6 +250,7 @@ def newErrorWin():
     button = Button(newError, text="click to dismiss", command=newError.destroy)
     button.pack()
 
+# RETRIEVES SPECIFIC COUNTRY HISTORY FROM DB
 def getSpecificCountry():
     # print(e_location_history.get())
     input = e_location_history.get()
@@ -280,10 +283,10 @@ def showSpecificCountry(history, input):
     button = Button(newInfo, text="Dismiss", command=newInfo.destroy)
     button.pack()
 
-#this prints our all the current locations searched by user
-# for x in mycol.find():
-#     print(x)
-# print(mydb.locations.find())
+
+# MAIN PART OF THE APP, I DID NOT IMPLEMENT A MAIN FUNCTION, OR CLASSES BECAUSE I THOUGHT IT WOULD BE A SMALLER PROJECT
+# UNFORTUNATELY IT GOT A BIT BIG
+# ANYWAY THE BELOW PORTIONS ARE WHERE THE MAIN TKINTER WINDOW IS SET UP AND HOW THE FUNCTIONS ARE CALLED
 master = Tk()
 master.geometry("800x300")
 master.wm_title("IPADDRESS LOCATOR, AND DATABASE HISTORY QUERY")
