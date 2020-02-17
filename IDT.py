@@ -23,13 +23,13 @@ mydb = client["mydatabase"] # create database called "mydatabase"
 mycol = mydb["locations"] # create a collection called locations
 
 #the ipaddress package i use to retrieve geolocation
-access_token = 'e2a9f66eee466e' #THIS IS MY OWN ACCESS CODE, YOU MAY USE IT, OR USE YOUR OWN
+access_token = 'USE YOUR OWN' #THIS IS MY OWN ACCESS CODE, YOU MAY USE IT, OR USE YOUR OWN
 handler = ipinfo.getHandler(access_token)
 
 #SNS amazon client
-### PLEASE USE YOUR OWN accesskey and secret access key, MINE DOESN'T WORK SOMETIMES IDK WHY
-client = boto3.client("sns", aws_access_key_id = "AKIAIDEKZG2C5R7QUY2Q",
-                    aws_secret_access_key = "D/B6D0swIrwgjmwl8Lnr4suHts/WjX7Ccs0vKG1C",
+### PLEASE USE YOUR OWN accesskey and secret access key, I cannot display my own as it violates amazon security
+client = boto3.client("sns", aws_access_key_id = "YOUR OWN ACCESS KEY",
+                    aws_secret_access_key = "YOUR OWN SECRET ACCESS KEY",
                         region_name = "us-east-1")
 
 #Button option that appears if get N location number > than size(database)
