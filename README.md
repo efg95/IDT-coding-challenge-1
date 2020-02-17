@@ -26,4 +26,4 @@ a small interface window should popup looking like that:
 I got my list of IP address test results from this: https://www.nirsoft.net/countryip/index.html
 
 after you copy paste into the entry box, you can click the two options underneathe the entry box
-![two options](screenshots/twoops.PNG)
+![two options](screenshots/twoop.png)
