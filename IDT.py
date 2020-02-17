@@ -28,8 +28,8 @@ handler = ipinfo.getHandler(access_token)
 
 #SNS amazon client
 ### PLEASE USE YOUR OWN accesskey and secret access key, MINE DOESN'T WORK SOMETIMES IDK WHY
-client = boto3.client("sns", aws_access_key_id = "AKIAIQ5OH6ZAJTWZRGWQ",
-                    aws_secret_access_key = "oggvccasjB00uaczBMwVZAktbbT5v4UwTjXJ+IGr",
+client = boto3.client("sns", aws_access_key_id = "AKIAIDEKZG2C5R7QUY2Q",
+                    aws_secret_access_key = "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",
                         region_name = "us-east-1")
 
 #Button option that appears if get N location number > than size(database)
