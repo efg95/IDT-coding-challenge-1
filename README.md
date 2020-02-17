@@ -36,7 +36,7 @@ after you copy paste into the entry box, you can click the two options underneat
   (**I CREATED A NEW AMAZON SNS ACCOUNT AND IT WORKS SO IDK WHATS GOING ON**)
   (**REPLACED OLD ACCESS KEYS WITH NEW ONE)
   (**YOU SHOULD RECEIVE A MSG LIKE THIS**)
-  ![two options](screenshots/sms.png)
+  ![two options](screenshots/sms1.png)
 
 
 2. **get last n locations basically retrieves the last n locations in DB**
