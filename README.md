@@ -20,3 +20,10 @@ coding challenge
 
 a small interface window should popup looking like that:
 ![Interface](screenshots/INTERFACE.PNG)
+
+
+1. ##The first entry box is for you to key in a IP address
+I got my list of IP address test results from this: https://www.nirsoft.net/countryip/index.html
+
+after you copy paste into the entry box, you can click the two options underneathe the entry box
+![two options](screenshots/twoops.PNG)
