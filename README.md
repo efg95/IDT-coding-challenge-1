@@ -1,5 +1,5 @@
-# IDT-coding-challenge-1
-coding challenge
+# IP Address Geo-Locator
+
 
 
 # **TO RUN CODE**
